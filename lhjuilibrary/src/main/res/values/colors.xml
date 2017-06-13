@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#456ea6</color>
+    <color name="colorPrimaryDark">#456ea6</color>
+    <color name="colorAccent">#456ea6</color>
+    <color name="gray_shallow">#E4E4E4</color>
+    <color name="blue_item_bg">#4fadf6</color>
+    <color name="view_gray">#efefef</color>
+    <!--首页tab字体颜色-->
+    <color name="activity_main_tab_color_pressed">#456ea6</color>
+    <color name="home_tab_color_title">#333</color>
+    <color name="home_tab_color_bg">#f2f2f2</color>
+    <!--listview选择变色-->
+    <color name="list_background_normal">#FFFFFF</color>
+    <color name="list_background_pressed">#efefef</color>    <!--登录搜索字体按钮颜色-->
+    <color name="login_bg">#4fadf6</color>
+    <color name="login_after">#4399dc</color>
+    <color name="blue_table_line">#18b4ed</color><!-- 蓝色 -->
+    <color name="line_color_px">#e6e6e6</color>
+
+    <!--调用摄像机需要的颜色-->
+    <color name="actionbar_background_pressed">#9A9A9A</color>
+
+    <!-- meaterial定义颜色值 -->
+    <color name="colorControlNormal">#FF78909C</color>
+    <color name="colorControlActivated">#FF03A9F4</color>
+    <color name="colorSwitchThumbNormal">#FF78909C</color>
+    <color name="colorPrimaryQuarter">#3303A9F4</color>
+    <color name="colorPrimaryHalf">#9003A9F4</color>
+    <color name="colorControlNormalHalf">#9078909C</color>
+    <color name="colorControlActivatedHalf">#9003A9F4</color>
+    <color name="colorAccentQuarter">#3300E5FF</color>
+    <color name="colorAccentHalf">#9000E5FF</color>
+
+    <color name="colorTitle">#333</color>
+    <color name="colorDesc">#999</color>
+
+    <color name="red_normal">#FF0000</color>
+    <color name="red_pressed">#FF6666</color>
+    <color name="green_normal">#37C000</color>
+    <color name="green_pressed">#30A070</color>
+    <color name="purple_normal">#9932CC</color>
+    <color name ="purple_pressed">#9F79EE</color>
+    <color name="toolbarColor">#456ea6</color>
+    <color name="toolbarItemColor">#95B4DB</color>
+    <color name="SearchBackgroundColor">#EAF2F2</color>
+    <color name="colorDelete">#f9357a</color>
+    <color name="color_main_bg">#EBF0F3</color>
+    <color name="color_replied_text">#5BC6FA</color>
+    <color name="scan_corner_color">#0effc2</color>
+    <color name="color_exam_refuse">#FFCC00</color>
+
+    <color name="dividing_area_color">#eaf2f2</color>
+    <!--左滑菜单背景色-->
+    <color name="green_8ed520">#8ed520</color>
+    <color name="green_a299d520">#a299d520</color>
+    <color name="yellow_ffc700">#ffc700</color>
+    <color name="pink_f83779">#f83779</color>
+    <color name="pink_b6f83767">#b6f83767</color>
+    <color name="blue_48c5fe">#48c5fe</color>
+
+    <!--房屋性质代表颜色 空房、高危、关注、普通、放心、库房-->
+    <color name="empty_fcfbfa">#fcfbfa</color>
+    <color name="highest_risk_f97f41">#f97f41</color>
+    <color name="follow_ffc900">#ffc900</color>
+    <color name="commonly_48c5fe">#48c5fe</color>
+    <color name="relieved_8dd520">#8dd520</color>
+    <color name="store_house_20d4d0">#20d4d0</color>
+
+    <!--对话框菜单色值-->
+    <color name="dialog_copy_48c4ff">#48c4ff</color>
+    <color name="dialog_edit_fa7c41">#fa7c41</color>
+    <color name="dialog_delete_f9357a">#f9357a</color>
+
+    <!--侧滑颜色-->
+    <color name="sideslip_color_8ed529">#8ed529</color>
+    <color name="sideslip_color_80c618">#80c618</color>
+    <color name="sideslip_color_f83779">#f83779</color>
+    <color name="sideslip_color_e8276b">#e8276b</color>
+    <color name="sideslip_color_a276ea">#a276ea</color>
+    <color name="sideslip_color_956cdd">#956cdd</color>
+    <color name="sideslip_color_fa7d40">#fa7d40</color>
+    <color name="sideslip_color_e86e32">#e86e32</color>
+
+    <color name="mask_color">#88888888</color>
+    <color name="white">#FFFFFF</color>
+</resources>

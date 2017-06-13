@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--筛选菜单自定义属性-->
+    <declare-styleable name="DropDownMenu">
+        <!--下划线颜色-->
+        <attr name="ddmUnderlineColor" format="color" />
+        <!--分割线颜色(菜单栏)-->
+        <attr name="ddmDividerColor" format="color" />
+        <!--tab选中颜色-->
+        <attr name="ddmTextSelectedColor" format="color" />
+        <!--tab未选中颜色-->
+        <attr name="ddmTextUnselectedColor" format="color" />
+        <!--tab 背景颜色-->
+        <attr name="ddmMenuBackgroundColor" format="color" />
+        <!--遮罩颜色，一般是半透明-->
+        <attr name="ddmMaskColor" format="color" />
+        <!--字体大小-->
+        <attr name="ddmMenuTextSize" format="dimension" />
+        <!--tab选中状态图标-->
+        <attr name="ddmMenuSelectedIcon" format="reference" />
+        <!--tab未选中状态图标-->
+        <attr name="ddmMenuUnselectedIcon" format="reference" />
+    </declare-styleable>
+
+</resources>

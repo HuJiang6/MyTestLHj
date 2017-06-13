@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="不限"
+            android:background="#ededed"
+            android:layout_margin="10dp"
+            />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0-500"
+            android:background="#ededed"
+            android:layout_margin="10dp"
+            />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="500-1000"
+            android:background="#ededed"
+            android:layout_margin="10dp"
+            />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1000-1500"
+            android:background="#ededed"
+            android:layout_margin="10dp"
+            />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1500-2000"
+            android:background="#ededed"
+            android:layout_margin="10dp"
+            />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2000-3000"
+            android:background="#ededed"
+            android:layout_margin="10dp"
+            />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3000以上"
+            android:background="#ededed"
+            android:layout_margin="10dp"
+            />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+        <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="自定义"
+                />
+
+        <LinearLayout
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+            <EditText
+                    android:id="@+id/et_qs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="起始价格"
+                    />
+            
+            <EditText
+                    android:id="@+id/et_js"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="结束价格"
+                    />
+
+        </LinearLayout>
+
+        <Button
+                android:id="@+id/bt_sure"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="确定"
+                />
+
+    </LinearLayout>
+
+</LinearLayout>

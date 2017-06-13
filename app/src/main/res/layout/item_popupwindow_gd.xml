@@ -1,0 +1,121 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#EAF2F2"
+            >
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="出租方式"
+                android:layout_margin="10dp"
+                android:textSize="14sp"
+                android:textColor="#456ea6"
+                />
+
+        <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="出租方式"
+                android:orientation="horizontal"
+                >
+
+            <RadioButton
+                    android:id="@+id/rb_zz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="#333"
+                    android:button="@null"
+                    android:textSize="14sp"
+                    android:text="整租"
+                    />
+
+            <RadioButton
+                    android:id="@+id/rb_hz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#333"
+                    android:button="@null"
+                    android:textSize="14sp"
+                    android:padding="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="合租"
+                    />
+
+        </RadioGroup>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="装修"
+                android:layout_margin="10dp"
+                android:textSize="14sp"
+                android:textColor="#456ea6"
+                />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="户型"
+                android:layout_margin="10dp"
+                android:textSize="14sp"
+                android:textColor="#456ea6"
+                />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="排序"
+                android:layout_margin="10dp"
+                android:textSize="14sp"
+                android:textColor="#456ea6"
+                />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="27dp"
+                >
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="19sp"
+                    android:textColor="#333"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="清空"
+                    />
+
+            <TextView
+                    android:id="@+id/tv_qiedin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="19sp"
+                    android:textColor="#fff"
+                    android:background="#456ea6"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="确定"
+                    />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
